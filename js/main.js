@@ -1,3 +1,32 @@
+
+var d = new Date();
+alert(d.getDay() -1 )
+alert(d.getHours())
+alert(d.getMinutes())
+alert(d.getSeconds())
+
+/* repeticao 
+for(let count = 0; count < 5; count++){
+    alert(count)
+}
+ */
+/* repeticao
+var count = 0
+while( count <= 5 ){
+    console.log( count )
+    count++
+} */
+
+/* condicional
+
+var idade = prompt("qual sua idade?")
+if( idade >= 18 ){
+    alert("maior de idade")
+}else{
+    alert("menor de idade")
+} */
+
+
 /* var nome = "rodrigo barbosa"
 var n1 = 32
 var n2 = 14
@@ -11,7 +40,7 @@ console.log(frase.toLowerCase()) */
 //alert(frase.replace("Flamengo", "Palmeiras"))
 
 //arrays
-var lista = ["maca","acerola","uva"]
+/* var lista = ["maca","acerola","uva"]
 console.log(lista[0])
 console.log(lista)
 alert(lista)
@@ -35,4 +64,4 @@ var frutas = { nome: "maca", cor:'vermelha' }
 console.log(frutas)
 //lista de dicionarios
 var frutas = [{ nome: "maca", cor:'vermelha' }, { nome: "uva", cor:'roxa' } ]
-console.log(frutas[1].nome)
+console.log(frutas[1].nome) */
