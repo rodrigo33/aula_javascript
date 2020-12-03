@@ -1,9 +1,60 @@
 
-var d = new Date();
+function clicou(){
+    document.getElementById("agradecimento").innerHTML = "<b>obrigado por clicar</b>"
+    //alert("obrigado por clicar")
+}
+
+function redirecionar(){
+    window.open("https://globallab.org/en/")
+    //window.location.href = "https://globallab.org/en/"
+}
+
+function trocar(elemento){
+    //document.getElementById("mousemove").innerHTML = "obrigado por passar o mouse"
+    elemento.innerHTML = "obrigado por passar o mouse"
+}
+
+function voltar(elemento){
+    //document.getElementById("mousemove").innerHTML = "passe o mouse aqui"
+    elemento.innerHTML = "passe o mouse aqui"
+}
+
+function load(){
+    alert("pagina carregada")
+}
+
+function funcaoChange(elemento){
+    console.log(elemento.value)
+}
+
+/* function soma(n1,n2){
+    return n1 + n2
+}
+
+var validar = 0
+
+function validaIdade(idade){
+    
+
+    if(idade >= 18 ){
+        validar = true
+    }else{
+        validar = false
+    }
+    return  validar
+}
+var idade = prompt("qual a sua idade?")
+validaIdade(idade)
+console.log(validar) */
+
+
+/* var d = new Date();
 alert(d.getDay() -1 )
 alert(d.getHours())
 alert(d.getMinutes())
-alert(d.getSeconds())
+alert(d.getSeconds()) */
+
+
 
 /* repeticao 
 for(let count = 0; count < 5; count++){
